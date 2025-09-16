@@ -520,6 +520,8 @@ body {
 .value-item i {
     font-size: 2rem;
     color: #ff6b6b;
+    display: block;
+    min-height: 2rem;
 }
 
 .value-item span {
