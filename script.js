@@ -155,7 +155,7 @@ class SlidePresentation {
     startAutoPlay() {
         this.autoPlayInterval = setInterval(() => {
             this.nextSlide();
-        }, 8000); // Auto-advance every 8 seconds
+        }, 20000); // Auto-advance every 20 seconds
     }
     
     pauseAutoPlay() {
