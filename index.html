@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3AM Digital Labs - Pioneering Tomorrow's Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="slide-nav">
+        <div class="nav-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+            <span class="dot" data-slide="6"></span>
+            <span class="dot" data-slide="7"></span>
+        </div>
+        <div class="nav-arrows">
+            <button class="nav-btn prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+            <button class="nav-btn next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </nav>
+
+    <!-- Slide Container -->
+    <div class="slides-container">
+        
+        <!-- Slide 1: Hero -->
+        <div class="slide active" id="slide-0">
+            <div class="hero-content">
+                <div class="logo-container">
+                    <div class="logo-3am">
+                        <span class="three">3</span><span class="am">AM</span>
+                    </div>
+                    <div class="logo-text">DIGITAL LABS</div>
+                </div>
+                <h1 class="hero-title">Pioneering Tomorrow's Solutions, Today</h1>
+                <p class="hero-subtitle">Cutting-edge innovation in XR, AI, software development, and cybersecurity</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Government Services Secured</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Private Companies Secured</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Websites Created</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Mobile Apps Created</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Web Apps Deployed</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="element element-1"><i class="fas fa-cube"></i></div>
+                    <div class="element element-2"><i class="fas fa-brain"></i></div>
+                    <div class="element element-3"><i class="fas fa-shield-alt"></i></div>
+                    <div class="element element-4"><i class="fas fa-gamepad"></i></div>
+                    <div class="element element-5"><i class="fas fa-code"></i></div>
+                    <div class="element element-6"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="element element-7"><i class="fas fa-cloud"></i></div>
+                    <div class="element element-8"><i class="fas fa-vr-cardboard"></i></div>
+                    <div class="element element-9"><i class="fas fa-database"></i></div>
+                    <div class="element element-10"><i class="fas fa-robot"></i></div>
+                    <div class="element element-11"><i class="fas fa-laptop-code"></i></div>
+                    <div class="element element-12"><i class="fas fa-network-wired"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: About Us -->
+        <div class="slide" id="slide-1">
+            <div class="slide-content">
+                <h2 class="slide-title">About Us</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="lead">3AM Digital Labs is a team of passionate pioneers and technologists dedicated to solving tomorrow's challenges with cutting-edge innovation.</p>
+                        <p>Drawing expertise from high-profile companies and diverse industries, we design and deliver robust, scalable, and impactful digital solutions.</p>
+                        <div class="expertise-areas">
+                            <div class="area">
+                                <i class="fas fa-vr-cardboard"></i>
+                                <span>Immersive Technologies</span>
+                            </div>
+                            <div class="area">
+                                <i class="fas fa-robot"></i>
+                                <span>Artificial Intelligence</span>
+                            </div>
+                            <div class="area">
+                                <i class="fas fa-code"></i>
+                                <span>Software Engineering</span>
+                            </div>
+                            <div class="area">
+                                <i class="fas fa-lock"></i>
+                                <span>Cybersecurity</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="tech-stack">
+                            <div class="tech-item">AR/VR</div>
+                            <div class="tech-item">AI/ML</div>
+                            <div class="tech-item">Cloud</div>
+                            <div class="tech-item">Security</div>
+                            <div class="tech-item">Mobile</div>
+                            <div class="tech-item">Web</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Mission & Vision -->
+        <div class="slide" id="slide-2">
+            <div class="slide-content">
+                <h2 class="slide-title">Mission & Vision</h2>
+                <div class="mission-vision-grid">
+                    <div class="mission-card">
+                        <div class="card-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Mission</h3>
+                        <p>To empower organizations by delivering innovative digital solutions in XR, AI, software development, and cybersecurity that drive growth and resilience in a rapidly evolving landscape.</p>
+                    </div>
+                    <div class="vision-card">
+                        <div class="card-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Vision</h3>
+                        <p>To be global leaders in crafting transformative digital experiences that shape the future of technology adoption and innovation.</p>
+                    </div>
+                </div>
+                <div class="values">
+                    <h3>Our Core Values</h3>
+                    <div class="values-list">
+                        <div class="value-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Innovation</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Collaboration</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-star"></i>
+                            <span>Excellence</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Impact</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Services -->
+        <div class="slide" id="slide-3">
+            <div class="slide-content">
+                <h2 class="slide-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-vr-cardboard"></i>
+                        </div>
+                        <h3>XR & Immersive Experiences</h3>
+                        <p>Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR) applications that transform engagement, marketing, education, and entertainment.</p>
+                        <div class="service-features">
+                            <span class="feature">AR Applications</span>
+                            <span class="feature">VR Experiences</span>
+                            <span class="feature">MR Solutions</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Game Development</h3>
+                        <p>Creating interactive, gamified experiences that drive user engagement, whether for fun, training, or business growth.</p>
+                        <div class="service-features">
+                            <span class="feature">Mobile Games</span>
+                            <span class="feature">Gamification</span>
+                            <span class="feature">Interactive Experiences</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI Solutions</h3>
+                        <p>Leveraging AI for automation, predictive analytics, and data-driven decision-making.</p>
+                        <div class="service-features">
+                            <span class="feature">Machine Learning</span>
+                            <span class="feature">Predictive Analytics</span>
+                            <span class="feature">Automation</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Custom Software Development</h3>
+                        <p>Full-stack development for mobile, web, and enterprise platforms, designed to scale.</p>
+                        <div class="service-features">
+                            <span class="feature">Web Applications</span>
+                            <span class="feature">Mobile Apps</span>
+                            <span class="feature">Enterprise Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Core Competencies -->
+        <div class="slide" id="slide-4">
+            <div class="slide-content">
+                <h2 class="slide-title">Core Competencies</h2>
+                <div class="competencies-container">
+                    <div class="competency-item">
+                        <div class="competency-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Software Development</h3>
+                        <p>Building robust, scalable, and tailored applications</p>
+                    </div>
+                    <div class="competency-item">
+                        <div class="competency-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <h3>Software Deployment</h3>
+                        <p>Cloud and on-premises deployment with best practices</p>
+                    </div>
+                    <div class="competency-item">
+                        <div class="competency-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h3>Data Migration</h3>
+                        <p>Seamless migration with full data integrity</p>
+                    </div>
+                    <div class="competency-item">
+                        <div class="competency-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <h3>Quality Assurance</h3>
+                        <p>Manual and automated testing for performance</p>
+                    </div>
+                    <div class="competency-item">
+                        <div class="competency-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity Testing</h3>
+                        <p>Advanced penetration testing and vulnerability assessments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Flagship Projects -->
+        <div class="slide" id="slide-5">
+            <div class="slide-content">
+                <h2 class="slide-title">Flagship Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <h3>Quest and Treats</h3>
+                            <span class="project-tag">AR Gamification</span>
+                        </div>
+                        <p class="project-description">A gamified Augmented Reality (AR) quest system that drives customer engagement and foot traffic into physical stores.</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-search"></i>
+                                <span>In-store quest solving</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-gift"></i>
+                                <span>Reward system</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>Customer engagement</span>
+                            </div>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech">AR</span>
+                            <span class="tech">Gamification</span>
+                            <span class="tech">Reward Engine</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Qudah Labs (QCL)</h3>
+                            <span class="project-tag">Lab Services</span>
+                        </div>
+                        <p class="project-description">Specialized laboratory services project designed to enhance user access and streamline lab solutions.</p>
+                        <div class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>labs.qudah.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>RSS Jordan Cybersecurity</h3>
+                            <span class="project-tag">National Security</span>
+                        </div>
+                        <p class="project-description">Penetration Testing & Vulnerability Assessments for 100+ governmental digital services in Jordan.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="number">100+</span>
+                                <span class="label">Services Secured</span>
+                            </div>
+                            <div class="stat">
+                                <span class="number">2018</span>
+                                <span class="label">Year</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Why Work With Us -->
+        <div class="slide" id="slide-6">
+            <div class="slide-content">
+                <h2 class="slide-title">Why Work With Us</h2>
+                <div class="why-us-grid">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Proven Experience</h3>
+                        <p>From national cybersecurity projects to innovative AR products, our track record speaks for itself.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Innovation-Driven</h3>
+                        <p>Always pushing the boundaries of XR, AI, and game development with cutting-edge solutions.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Full Lifecycle Expertise</h3>
+                        <p>From development and deployment to QA, data migration, and security testing.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-target"></i>
+                        </div>
+                        <h3>Impact-Focused</h3>
+                        <p>We don't just build tech — we build solutions that matter and drive real business value.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Contact -->
+        <div class="slide" id="slide-7">
+            <div class="slide-content">
+                <h2 class="slide-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Address</h3>
+                                <p>23B, Ground Floor, King Hussein Business Park<br>Amman, 11185, Jordan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>+962 (079) 543-0116</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>mqudah@3amdigitallabs.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Website</h3>
+                                <p>3amdigitallabs.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-visual">
+                        <div class="logo-container">
+                            <div class="logo-3am large">
+                                <span class="three">3</span><span class="am">AM</span>
+                            </div>
+                            <div class="logo-text">DIGITAL LABS</div>
+                        </div>
+                        <p class="tagline">Pioneering Tomorrow's Solutions, Today</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
