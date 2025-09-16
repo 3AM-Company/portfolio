@@ -803,6 +803,12 @@ body {
     color: white;
 }
 
+.why-icon i {
+    display: block;
+    font-size: 2rem;
+    color: white;
+}
+
 .why-card h3 {
     font-size: 1.5rem;
     font-weight: 600;
